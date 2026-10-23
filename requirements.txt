@@ -1,0 +1,16 @@
+# Install torch/torchvision first (CPU or CUDA build), see README
+arcsort==0.1.0
+ultralytics==8.4.183
+supervision==0.31.1
+trackers==2.6.1
+opencv-python>=4.8
+numpy>=1.24,<3
+scipy>=1.10
+lap>=0.5.12
+tqdm
+imageio-ffmpeg
+yt-dlp
+# PARSeq (loaded via torch.hub)
+timm==1.0.30
+pytorch-lightning==2.6.6
+nltk
